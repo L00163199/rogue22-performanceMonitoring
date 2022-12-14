@@ -27,7 +27,7 @@ jobs:
       if: always()
       uses: runforesight/foresight-workflow-kit-action@v1
       with:
-      # Generated when integrating foresight with github account
+      # Generated when integrating foresight with github
         api_key: 7e196222-d446-4104-9aa4-577fff5ab828
     
     - uses: actions/checkout@v3
